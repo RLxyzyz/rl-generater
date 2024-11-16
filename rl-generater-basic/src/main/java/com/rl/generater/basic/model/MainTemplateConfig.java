@@ -16,10 +16,6 @@ public class MainTemplateConfig {
      * */
     private String author;
 
-    /**
-     * 时间
-     * */
-    private String date;
 
     /**
      * 输出

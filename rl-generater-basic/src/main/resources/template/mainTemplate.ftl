@@ -7,7 +7,6 @@ import java.util.Scanner;
 * @version 1.0
 * @project acm-template
 * @description acm模板
-* @date ${date!'now'}
 */
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class Main {
             for (int i = 0; i < n; i++) {
                 sum += sc.nextInt();
             }
-            System.out.println(${output!"总和是:"}sum);
+            System.out.println("${output!"总和是:"}"sum);
         }
     <#else>
         int n = sc.nextInt();

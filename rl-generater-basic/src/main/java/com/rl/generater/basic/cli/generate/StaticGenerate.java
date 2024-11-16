@@ -1,4 +1,4 @@
-package com.rl.generater.basic.generate;
+package com.rl.generater.basic.cli.generate;
 
 import cn.hutool.core.io.FileUtil;
 

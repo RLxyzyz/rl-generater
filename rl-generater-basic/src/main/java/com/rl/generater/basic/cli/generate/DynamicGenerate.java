@@ -1,4 +1,4 @@
-package com.rl.generater.basic.generate;
+package com.rl.generater.basic.cli.generate;
 
 import cn.hutool.core.date.DateTime;
 import com.rl.generater.basic.model.MainTemplateConfig;
@@ -31,7 +31,6 @@ public class DynamicGenerate {
         //设置模型
         MainTemplateConfig config=new MainTemplateConfig();
         config.setAuthor("任磊");
-        config.setDate(DateTime.now().toDateStr());
         config.setOutput("12222::");
         config.setLoop(true);
 
@@ -51,6 +50,7 @@ public class DynamicGenerate {
         Configuration cfg=new Configuration(Configuration.VERSION_2_3_33);
         String projectPath = System.getProperty("user.dir");
         String parentPath = projectPath + File.separator+"rl-generater-basic";
+        System.out.println(inputPath);
         File templateFile=new File(inputPath).getParentFile();
         cfg.setDirectoryForTemplateLoading(templateFile);
         cfg.setDefaultEncoding("UTF-8");
