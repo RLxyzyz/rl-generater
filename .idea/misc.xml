@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/rl-generator-maker" />
+  </component>
   <component name="JUnitGeneratorProjectSettings">
     <option name="vmTemplates">
       <map>
@@ -13,6 +16,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rl-generater-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/rl-generator-maker/pom.xml" />
       </list>
     </option>
   </component>

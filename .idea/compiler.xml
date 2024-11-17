@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rl-generater-basic" />
+        <module name="rl-generator-maker" />
       </profile>
     </annotationProcessing>
   </component>

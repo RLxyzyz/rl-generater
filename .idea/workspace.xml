@@ -5,19 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7c5ecc-723e-49d9-919f-9d6d97c63e7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/command/ConfigCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/command/GeneratorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/command/ListCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/generate/MainGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm-template/acm-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/.mvn/jvm.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/.mvn/maven.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/MainGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/command/ConfigCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/command/GeneratorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/command/ListCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/generate/file/FileGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/generate/file/StaticFileGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/meta/Meta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/meta/MetaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/model/DataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/templates/java/cli/command/CommandExecutor.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/templates/java/cli/command/ConfigCommand.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/templates/java/cli/command/GeneratorCommand.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/templates/java/cli/command/ListCommand.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rl-generator-maker/src/main/resources/templates/java/model/DataModel.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rl-generater-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/generate/DynamicGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/generate/DynamicGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/generate/StaticGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/generate/StaticGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/model/MainTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/model/MainTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/src/main/resources/template/mainTemplate.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/rl-generater-basic/src/main/resources/template/mainTemplate.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl-generater-basic/target/classes/com/rl/generater/basic/generate/StaticGenerate.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +71,32 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/code/backend/rl-generater/demo",
+    "last_opened_file_path": "F:/code/backend/rl-generater/rl-generator-maker/src/main/resources/templates/java/cli/command",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\backend\rl-generater\rl-generator-maker\src\main\java\com\rl\generator\maker" />
+      <recent name="F:\code\backend\rl-generater" />
       <recent name="F:\code\backend\rl-generater\demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\backend\rl-generater\rl-generator-maker\src\main\resources\templates\java\cli\command" />
       <recent name="F:\code\backend\rl-generater" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="templates.java.generator" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainGenerator">
     <configuration name="ASCIIArt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -88,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rl.generater.basic.cli.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rl.generater.basic.generate.DynamicGenerate" />
-      <module name="rl-generater-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rl.generater.basic.generate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rl.generator.maker.MainGenerator" />
+      <module name="rl-generator-maker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rl.generator.maker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.rl.generater.basic.cli.generate.DynamicGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rl.generater.basic.cli.generate.DynamicGenerate" />
       <module name="rl-generater-basic" />
@@ -161,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainGenerator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.rl.generater.basic.cli.generate.DynamicGenerate" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.ASCIIArt" />
-        <item itemvalue="Application.DynamicGenerate" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +196,10 @@
       <option name="presentableId" value="Default" />
       <updated>1731668469605</updated>
       <workItem from="1731668470953" duration="8859000" />
-      <workItem from="1731728634792" duration="11551000" />
+      <workItem from="1731728634792" duration="16258000" />
+      <workItem from="1731821454804" duration="1844000" />
+      <workItem from="1731823325951" duration="681000" />
+      <workItem from="1731829084858" duration="8183000" />
     </task>
     <task id="LOCAL-00001" summary="1.初始化工程&#10;2.基于freeMarker实现基本的生成功能（静态文件和动态文件)">
       <created>1731679231105</created>
@@ -208,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731733158403</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.使用picocli实现子命令&#10;2.串通使用命令生成代码流程&#10;3.编写脚本">
+      <created>1731760186552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731760186552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +246,8 @@
     <MESSAGE value="1.初始化工程&#10;2.基于freeMarker实现基本的生成功能（静态文件和动态文件)" />
     <MESSAGE value="1.选定picocli命令行工具，并作测试运行。" />
     <MESSAGE value="1.尝试交互式命令并测试运行。&#10;2.测试交互式命令的探索" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.尝试交互式命令并测试运行。&#10;2.测试交互式命令的探索" />
+    <MESSAGE value="1.使用picocli实现子命令&#10;2.串通使用命令生成代码流程&#10;3.编写脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.使用picocli实现子命令&#10;2.串通使用命令生成代码流程&#10;3.编写脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,6 +261,21 @@
           <url>file://$PROJECT_DIR$/rl-generater-basic/src/main/java/com/rl/generater/basic/cli/command/GeneratorCommand.java</url>
           <line>42</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/MainGenerator.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/generate/file/DynamicFileGenerator.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rl-generator-maker/src/main/java/com/rl/generator/maker/cli/generate/file/DynamicFileGenerator.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

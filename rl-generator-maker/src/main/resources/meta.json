@@ -1,0 +1,41 @@
+{
+  "name": "acm-template-pro-generator",
+  "description": "ACM 示例模板生成器",
+  "basePackage": "com.rl",
+  "version": "1.0",
+  "author": "renlei",
+  "createTime": "2024-11-17",
+  "fileConfig": {
+    "inputRootPath": "template",
+    "outputRootPath": "output",
+    "type": "dir",
+    "files": [
+      {
+        "inputPath": "src/main/java/com/rl",
+        "outputPath": "src/main/java/{{basePackage}}",
+        "type": "file",
+        "generateType": "dynamic"
+      }
+    ]
+  },
+  "modelConfig": {
+    "loop":{
+        "type":"boolean",
+        "description":"是否循环",
+        "defaultValue":false,
+        "abbr": "l"
+    },
+    "author": {
+      "type":"string",
+      "description":"作者",
+      "defaultValue":"renlei",
+      "abbr": "a"
+    },
+    "output": {
+      "type":"string",
+      "description":"输出路径",
+      "defaultValue":"sum =",
+      "abbr": "o"
+    }
+  }
+}
