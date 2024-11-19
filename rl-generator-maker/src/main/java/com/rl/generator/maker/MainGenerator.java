@@ -43,5 +43,7 @@ public class MainGenerator {
         String outputBasePath = outputPath + File.separator +"src/main/java" + File.separator + basePackage;
         String outputFilePath = outputBasePath + File.separator + "DataModel.java";
         DynamicFileGenerator.doGenerator(templatePath,outputFilePath,meta);
+
+        DynamicFileGenerator.doGenerator(templatePath,outputFilePath,meta);
     }
 }
