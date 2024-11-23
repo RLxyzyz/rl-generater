@@ -30,6 +30,7 @@ public class Meta {
     public static class FileConfigInfo {
         private String inputRootPath;
         private String outputRootPath;
+        private String resourceRootPath;
         private String type;
         private List<FilesInfo> files;
 

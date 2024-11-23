@@ -17,21 +17,29 @@ import java.util.Set;
  * @date 2024/11/19 15:46:59
  */
 public class ScriptGenerator {
-    public void doGenerate(String outputPath,String jarPath){
+    public static void doGenerate(String outputPath,String jarPath){
         //Linux
         StringBuilder sb = new StringBuilder();
         sb.append("#!/bin/bash").append("\n");
         sb.append(String.format("java -jar %s \"$@\"",jarPath)).append("\n");
         FileUtil.writeBytes(sb.toString().getBytes(), new File(outputPath));
-        Set<PosixFilePermission> permissions = PosixFilePermissions.fromString("rwxrwxrwx");
-        try {
-            Files.setPosixFilePermissions(new File(outputPath).toPath(), permissions);
-        } catch (IOException e) {
+        if (isLinux()){
+            Set<PosixFilePermission> permissions = PosixFilePermissions.fromString("rwxrwxrwx");
+            try {
+                Files.setPosixFilePermissions(new File(outputPath).toPath(), permissions);
+            } catch (IOException e) {
 
+            }
         }
+
         //Windows
+        sb=new StringBuilder();
         sb.append("@echo off").append("\n");
         sb.append(String.format("java -jar %s %%*",jarPath)).append("\n");
         FileUtil.writeBytes(sb.toString().getBytes(), outputPath+".bat");
+    }
+    private static boolean isLinux(){
+        String sysName = System.getProperty("os.name").toLowerCase();
+        return sysName.contains("linux");
     }
 }

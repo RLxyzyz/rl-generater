@@ -6,36 +6,42 @@
   "author": "renlei",
   "createTime": "2024-11-17",
   "fileConfig": {
-    "inputRootPath": "template",
+    "inputRootPath": "F:/code/backend/rl-generater",
     "outputRootPath": "output",
+    "resourceRootPath": "F:/code/backend/rl-generater/acm-template",
     "type": "dir",
     "files": [
       {
-        "inputPath": "src/main/java/com/rl",
-        "outputPath": "src/main/java/{{basePackage}}",
+        "inputPath": "src/com/rl/acm/MainTemplate.java.ftl",
+        "outputPath": "src/com/rl/acm/MainTemplate.java",
         "type": "file",
         "generateType": "dynamic"
       }
     ]
   },
   "modelConfig": {
-    "loop":{
-        "type":"boolean",
+    "models": [
+      {
+        "name": "loop",
+         "type":"boolean",
         "description":"是否循环",
         "defaultValue":false,
         "abbr": "l"
-    },
-    "author": {
-      "type":"string",
+      },
+      {
+        "name": "author",
+        "type":"String",
       "description":"作者",
       "defaultValue":"renlei",
       "abbr": "a"
-    },
-    "output": {
-      "type":"string",
+      },
+      {
+        "name": "output",
+        "type":"String",
       "description":"输出路径",
       "defaultValue":"sum =",
       "abbr": "o"
-    }
+      }
+    ]
   }
 }

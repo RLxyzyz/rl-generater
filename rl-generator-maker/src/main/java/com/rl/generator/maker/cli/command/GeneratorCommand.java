@@ -1,8 +1,6 @@
 package com.rl.generator.maker.cli.command;
 
 
-import com.rl.generator.maker.MainGenerator;
-import com.rl.generator.maker.cli.generate.file.DynamicFileGenerator;
 import com.rl.generator.maker.model.DataModel;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;

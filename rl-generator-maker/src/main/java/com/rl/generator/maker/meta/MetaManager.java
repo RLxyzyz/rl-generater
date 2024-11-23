@@ -26,7 +26,9 @@ public class MetaManager {
 
     private static Meta initMeat() {
         String metaJson = ResourceUtil.readUtf8Str("meta.json");
-        // TODO: 2024/11/17 数据检验
-        return JSONUtil.toBean(metaJson,Meta.class);
+        // 数据校验
+        Meta bean = JSONUtil.toBean(metaJson, Meta.class);
+        MetaValidator.validateAndSet(bean);
+        return bean;
     }
 }

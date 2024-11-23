@@ -1,4 +1,4 @@
-package ${basePackage}.generator.maker.cli.generate.file;
+package ${basePackage}.cli.generator;
 
 import cn.hutool.core.io.FileUtil;
 

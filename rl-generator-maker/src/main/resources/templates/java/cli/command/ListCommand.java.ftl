@@ -1,4 +1,4 @@
-package ${basePackage}.maker.cli.command;
+package ${basePackage}.cli.command;
 
 import cn.hutool.core.io.FileUtil;
 import picocli.CommandLine.Command;
@@ -18,7 +18,7 @@ public class ListCommand implements Runnable{
 
     @Override public void run() {
         //查看所有文件
-        String inputPath = ${"fileConfig.inputRootPath"};
+        String inputPath = "${fileConfig.inputRootPath}";
         List<File> files = FileUtil.loopFiles(inputPath);
         for (File file : files) {
             System.out.println(file);
